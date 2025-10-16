@@ -1,0 +1,17 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "boot-java.support-spring-xml-config.on": true,
+    "spring-boot.ls.problem.boot2.JAVA_LAMBDA_DSL": "HINT",
+    "spring-boot.ls.problem.boot2.JAVA_CONSTRUCTOR_PARAMETER_INJECTION": "HINT",
+    "spring-boot.ls.problem.boot2.JAVA_AUTOWIRED_CONSTRUCTOR": "HINT",
+    "spring-boot.ls.problem.boot2.JAVA_REPOSITORY": "HINT",
+    "spring-boot.ls.problem.boot2.JAVA_TEST_SPRING_EXTENSION": "HINT",
+    "terminal.integrated.env.windows": {},
+    "editor.defaultFormatter": "redhat.java",
+    "spring.initializr.defaultLanguage": "Java",
+    "java.maven.downloadSources": true,
+    "maven.pomfile.autoUpdateEffectivePOM": true,
+    "codeium.snoozeTime": 20,
+    "codeium.useSecretStorage": false
+}
