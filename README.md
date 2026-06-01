@@ -1,10 +1,22 @@
-# Spring Boot & DevOps Learning Labs 🚀
+# Spring Boot Learning Labs 🚀
 
-A curated collection of isolated production-grade exercises exploring Java backend internals, dependency management, and core software architecture patterns.
+A collection of isolated hands-on labs exploring Java backend internals,
+dependency management, and core software architecture patterns —
+built from scratch, broken on purpose, understood for real.
 
-## 📁 Repository Map
+## Lab Directory
 
-
-| Lab Directory | Concept Explored | Key Takeaway |
+| Lab | Concept | Key Takeaway |
 | :--- | :--- | :--- |
-| `01-tight-coupling-pain` | Tight Coupling & Code Hardwiring | Realizing why the `new` keyword breaks software unit testing loops. |
+| [`01-tight-coupling-pain`](./01-tight-coupling-pain) | Tight Coupling | Why `new` inside a class makes unit testing impossible |
+| [`02-decoupling-with-interface`](./02-decoupling-with-interface) | Interface + Constructor Injection | How to decouple code without any framework |
+
+## Philosophy
+
+Each lab intentionally starts with the wrong approach.
+The pain of bad design is the lesson — not just the solution.
+
+## Related
+
+📝 Full writeups on every lab:
+[brokenbydesign.hashnode.dev](https://brokenbydesign.hashnode.dev)
