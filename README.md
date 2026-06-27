@@ -16,7 +16,7 @@ built from scratch, broken on purpose, understood for real.
 | [`07-feel-the-fat-jar`](./07-feel-the-fat-jar)                                               | Thin vs. Executable Fat JAR        | Demystifying deployment mechanics and Spring's custom `JarLauncher` embedded structure.                                                                  |
 | [`08-prove-test-starter-exclusion`](./08-prove-test-starter-exclusion)                       | Maven Dependency Scopes            | Verifying that development testing suites (`scope=test`) are completely stripped from production binaries.                                               |
 | [`17-jpa-with-hibernate`](./17-jpa-with-hibernate)                                           | Plain JPA + Hibernate Fundamentals | Bootstrapping JPA from scratch, configuring `persistence.xml`, managing entities and transactions, and understanding dirty checking without Spring Boot. |
-
+| [`18-native-hibernate`](./18-native-hibernate)                                           | Native Hibernate Bootstrap | Building Hibernate's SessionFactory manually, understanding the native bootstrap process, and using the Session API and Criteria API without the JPA bootstrap.|
 
 ## Philosophy
 
