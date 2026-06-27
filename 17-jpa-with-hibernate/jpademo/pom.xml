@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.example</groupId>
+	<artifactId>jpademo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>jpademo</name>
+
+
+	<properties>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		
+		<!-- Plain JPA and Hibernate implementation-->
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.6.1.Final</version>
+		</dependency>
+
+		<!-- PostgreSQL Database driver-->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.5</version>
+		</dependency>
+
+		<!-- Standard JUnit5 Engine for our @Test class-->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.11.4</version>
+			<scope>test</scope>
+		</dependency>
+
+		
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<!--Standard Maven Plugin to run JUnit test-->
+			<plugin>
+				<groupId>org.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.5.2</version>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
+
+
